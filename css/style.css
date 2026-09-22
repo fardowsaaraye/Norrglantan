@@ -42,7 +42,8 @@ nav a {
     }
     nav {
         display: flex;
-        gap: 20px;
+        flex-direction: column;
+         gap: 20px;
      }
 
 /* Hero-sektion */
@@ -195,4 +196,7 @@ footer a {
             justify-content: space-between;
             align-items: flex-start
             }
+        nav {
+            flex-direction: row;
+             } 
         }
