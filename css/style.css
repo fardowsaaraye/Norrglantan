@@ -17,7 +17,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 40px;
     background-color: #024023;
     }
  .logotyp {
@@ -35,17 +35,20 @@ header {
     font-size: 20px;
     color: white;
 }
-nav a {
+.link a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     }
-    nav ul {
-        display: flex;
-        flex-direction: row;
-         gap: 20px;
-         list-style: none;
+.link ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+
      }
+
+
 
 /* Hero-sektion */
 .hero {
@@ -93,12 +96,12 @@ nav a {
 
 
 /* Aktiviteter */
-.aktiviteter {
+#aktiviteter {
     text-align: center;
     background-color: lightgrey;
     padding: 30px 0px 40px;
     }
-.aktiviteter h2 {
+#aktiviteter h2 {
   color:#024023;
   font-size: 33px;
   
@@ -117,7 +120,7 @@ nav a {
 }
 
 .aktivitet img {
-    width: 200%;
+    width: 100%;
     display: block;
     }
 
@@ -181,6 +184,7 @@ footer a {
 .lankar nav {
     display: flex;
     flex-direction: column;
+    gap: 14px;
     line-height: 1.5px;
     }
 
